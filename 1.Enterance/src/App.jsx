@@ -5,7 +5,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
- 
+  let a = 15;
+  let sonuc = false;
+  let isimler = ["Kadir", "Enes", "Eray","Osman"]
   return (
     <>
       <div>
@@ -22,12 +24,20 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/App.jsx</code> and save to test HMR at {a}
         </p>
+        { sonuc ? <p> Geçtin</p> : <p>Kaldın</p>}
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Tıkla
       </p>
+      {
+        isimler.map((isim, index) => (
+          <div key={index}>
+           {isim}
+          </div>
+        ))
+      }
     </>
   )
 }
