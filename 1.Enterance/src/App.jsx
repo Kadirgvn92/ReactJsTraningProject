@@ -33,7 +33,10 @@ function App() {
       </p>
       {
         isimler.map((isim, index) => (
-          <div key={index}>
+          <div key={index} style={{
+            backgroundColor: 'red',
+            
+          }}>
            {isim}
           </div>
         ))
