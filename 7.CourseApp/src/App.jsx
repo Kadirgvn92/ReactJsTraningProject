@@ -9,11 +9,14 @@ function App() {
   return (
     <>
       <Header />
-      {
-        courses?.map((course) => (
-          <Course key={course.id} course={course} />
-        ))
-      }
+      <div className='course-main'>
+        {
+          courses?.map((course) => (
+            <Course key={course.id} course={course} />
+          ))
+        }
+      </div>
+
     </>
   )
 }

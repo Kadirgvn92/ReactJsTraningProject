@@ -1,4 +1,10 @@
 .alt-course {
     border: 1px solid black;
-    padding: 100px;
+    padding: 10px;
+    font-family: serif;
+}
+
+.imageCourse {
+    display: flex;
+    justify-content: center;
 }
