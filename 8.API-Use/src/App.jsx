@@ -3,7 +3,7 @@ import './App.css'
 import { useEffect } from 'react';
 
 
-const BASE_URL = "http://localhost:3006"
+const BASE_URL = "http://localhost:3001"
 
 function App() {
 
@@ -15,8 +15,19 @@ function App() {
     const response = await axios.get(`${BASE_URL}/users/${userID}`);
     console.log(response.data)
   }
+
+  const createUser = async (newUser) => {
+    const response = await axios.post(`${BASE_URL}/users`, newUser)
+    console.log(response)
+  }
+
   useEffect(() => {
-    getUserById(2);
+
+    const newUser = {
+      "username": "Bilal",
+      "password": "1234"
+    }
+    createUser(newUser)
   }, [])
 
   return (
