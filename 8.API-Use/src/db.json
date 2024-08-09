@@ -1,167 +1,19 @@
 {
   "users": [
     {
-      "username": "Bilal",
+      "id": "1",
+      "username": "Kadir",
       "password": "1234",
-      "id": "1"
+      "postID":"7"
     },
     {
       "id": "2",
       "username": "Osman",
-      "password": "12345"
+      "password": "1234",
+      "postID":"7"
     },
     {
-      "id": "3825",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "8a52",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "cfb1",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "947f",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "be4b",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "03c1",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "c7d3",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "415d",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "2610",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "db8b",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "0dcd",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "e3e2",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "37b8",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "71e3",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "afa1",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "2373",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "4d27",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "e254",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "e9e8",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "27e6",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "2718",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "9cd8",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "f4f0",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "e943",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "1c47",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "dbe9",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "e5db",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "6348",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "5f4f",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "1",
-      "username": "Bilal",
-      "password": "1234"
-    },
-    {
-      "id": "1",
+      "id": "3",
       "username": "Bilal",
       "password": "1234"
     }
