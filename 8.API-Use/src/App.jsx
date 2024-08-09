@@ -21,13 +21,19 @@ function App() {
     console.log(response)
   }
 
+  const updateUser = async (userID, updatedUser) => {
+    const response = await axios.put(`${BASE_URL}/users/${userID}`, updatedUser)
+    console.log(response)
+
+  }
+
   useEffect(() => {
 
     const newUser = {
       "username": "Bilal",
       "password": "1234"
     }
-    createUser(newUser)
+    updateUser("1", newUser)
   }, [])
 
   return (
