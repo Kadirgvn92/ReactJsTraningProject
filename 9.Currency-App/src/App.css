@@ -7,3 +7,23 @@ body {
   background-size: 100%;
   background-position: center;
 }
+
+.todo-create {
+  display: flex;
+  direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TodoBtn {
+  border-radius: 10px;
+  background-color: gold;
+}
