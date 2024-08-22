@@ -4,14 +4,33 @@ import TodoCreate from './Components/TodoCreate'
 import TodoList from './Components/TodoList'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [todos, setTodos] = useState([]);
+
+  const createTodo = (newTodo) => {
+    setTodos([...todos, newTodo]);
+  }
+
+  const deleteTodo = (id) => {
+    const updatedTodos = todos.filter(todo => todo.id !== id);
+    setTodos(updatedTodos);
+  }
+
+  const updateTodo = (updatedTodo) => {
+    const updatedTodos = todos.map((todo) => {
+      if (todo.id !== updatedTodo.id) {
+        return todo;
+      }
+      return updatedTodo;
+    })
+    setTodos([...updatedTodos])
+  }
 
   return (
     <>
       <div className='App'>
         <div className='TodoApp' style={{ width: '500px' }}>
-          <TodoCreate />
-          <TodoList />
+          <TodoCreate onCreateTodo={createTodo} />
+          <TodoList todos={todos} onDeleteTodo={deleteTodo} onUpdateTodo={updateTodo} />
         </div>
 
       </div>
