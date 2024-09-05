@@ -6,6 +6,7 @@ import About from './pages/About'
 import Products from './pages/Products'
 import Contact from './pages/Contact'
 import NotFoundPages from './pages/NotFoundPages'
+import Header from './components/Header'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/About' element={<About />}></Route>
