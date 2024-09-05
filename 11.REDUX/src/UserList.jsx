@@ -17,7 +17,7 @@ function UserList() {
         <div>
             {
                 users && users.map((user) => {
-                    <User key={user.id} user={user} />
+                    return <User key={user.id} user={user} />
                 })
             }
         </div>
